@@ -1,0 +1,56 @@
+Gen AI Frameworks and Tools
+
+step 1 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 8)
+- Set up and import the required libraries
+- Chunk the loaded dataset
+
+Share below msg in 30 different ways with same contextual meaning 
+
+Marks Awarded: 8/8
+
+Successfully set up and imported all required libraries and completed dataset chunking effectively. The implementation demonstrates a clear understanding of the data preparation process, with appropriate library usage and logical chunking of the loaded dataset to support efficient downstream processing. The work meets the expected requirements with no gaps identified.
+
+Improvement Suggestion: While all requirements have been fulfilled satisfactorily, future submissions may include brief documentation of the chunking strategy (e.g., chunk size selection and rationale) to further enhance readability, maintainability, and reproducibility. 
+
+step 2 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 10)
+-  Create and check the contents of the vectorDB
+-  Create a retriever that fetches 5 responses for every query.
+-  Upload the current DB state to Google Drive, to avoid using GPU during querying.
+
+Share below msg in 30 different ways with same contextual meaning 
+
+Marks Awarded: 10/10
+
+Successfully created and validated the VectorDB contents, ensuring data integrity and accessibility. Implemented a retriever configured to return the top 5 relevant results for each query, supporting efficient and consistent information retrieval. The current database state was also uploaded to Google Drive, enabling future querying without repeated GPU-intensive processing. All required activities were completed accurately and in accordance with the expected objectives.
+
+Improvement Suggestion: The implementation fully meets the requirements. For enhanced maintainability, future submissions may include brief documentation of retrieval parameters, validation checks, and database version details.
+
+step 3 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 10)
+- Set up the Azure OpenAI client with the endpoint and api key
+
+Share below msg in 30 different ways with same contextual meaning 
+
+Marks Awarded: 10/10
+
+Successfully configured the Azure OpenAI client using the appropriate endpoint and API key. The setup was implemented correctly, enabling secure and reliable connectivity with Azure OpenAI services for subsequent application workflows. The configuration demonstrates a clear understanding of authentication requirements and client initialization processes. All assigned requirements were completed accurately and in alignment with the expected objectives.
+
+Improvement Suggestion: The implementation fully meets expectations. For enhanced maintainability, future submissions may include brief documentation of configuration parameters, endpoint details, and security best practices for credential management.
+
+step 4 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 24)
+- Load Vector DB
+- Check if we have all the embeddings ready.
+
+step 5 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 24)
+- Formulate a prompt to fetch a Retrieval Augmented Generation from the LLM.
+- Retrieve the relevant documents
+- Compose the response of the LLM.
+- Evaluate the response of the model
+
+step 6 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 12)
+- Write a Python script that retrieves relevant document chunks based on user input, formats the context with metadata, and uses a chat completion model to generate a response. 
+- Ensure the code uses client.chat.completions.create() to interact with the model.
+
+step 7 write comment to give marks and improvement suggestions if below activities done. i have deduction 0 marks so go accordingly. do not use emojis. max length : 500 (out of 12)
+- Write a Python script that rates the groundedness and relevance of an answer based on a user query and context. The script should create two separate prompts—one for groundedness and one for relevance—and use the client.chat.completions.create() function to generate responses for both. Ensure the system and user roles are correctly defined for each prompt.
+
+
